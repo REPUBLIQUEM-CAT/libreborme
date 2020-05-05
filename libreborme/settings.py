@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'fontawesome',
     'tastypie',
     # 'maintenancemode',
-    'django_elasticsearch_dsl',
+#    'django_elasticsearch_dsl',
     'borme',
     'libreborme',
 )
@@ -129,12 +129,12 @@ DATABASES = {
     }
 }
 
-ELASTICSEARCH_URI = "http://elastic:changeme@localhost:9200"
-ELASTICSEARCH_DSL = {
-    'default': {
-        'hosts': ELASTICSEARCH_URI.split('http://')[1]
-    },
-}
+# ELASTICSEARCH_URI = "http://elastic:changeme@localhost:9200"
+# ELASTICSEARCH_DSL = {
+#     'default': {
+#         'hosts': ELASTICSEARCH_URI.split('http://')[1]
+#     },
+# }
 
 # ELASTICSEARCH_DSL_AUTOSYNC = False
 # ELASTICSEARCH_DSL_AUTO_REFRESH = False
