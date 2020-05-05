@@ -12,3 +12,6 @@
 /htmlcov
 /libreborme.egg-info/
 /site
+
+
+venv/*
