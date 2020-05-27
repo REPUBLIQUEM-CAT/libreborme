@@ -57,6 +57,16 @@ Si quieres apoyar económicamente el proyecto puedes hacerlo a través de [PayPa
 Licencia
 --------
 
+
 LibreBOR es software libre y su código fuente está accesible en [GitHub](https://github.com/PabloCastellano/libreborme) bajo la licencia [Affero GPL v3](https://www.gnu.org/licenses/agpl-3.0.html).
 
 © Desarrolladores de LibreBOR. Véase el archivo [AUTHORS](AUTHORS).
+
+
+Fork
+-----
+The version used is a [custom fork](https://github.com/boschmateo/libreborme) from the 
+[original](https://github.com/PabloCastellano/libreborme/). The changes are:
+
+ * Updated dependency of bormeparser to latest (0.4.0).
+ * Removed ElasticSearch.
