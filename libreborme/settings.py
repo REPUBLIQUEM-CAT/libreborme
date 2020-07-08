@@ -123,8 +123,8 @@ DATABASES = {
         'NAME': 'libreborme',
         'USER': 'libreborme',
         'PASSWORD': 'password',
-        'HOST': 'host.docker.internal',
-        'PORT': '',
+        'HOST': '172.17.0.1',
+        'PORT': '5432',
     }
 }
 
