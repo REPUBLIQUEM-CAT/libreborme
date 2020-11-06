@@ -21,4 +21,7 @@ def get_git_revision_short_hash():
     except subprocess.CalledProcessError:
         logger.warning("Couldn't guess git revision")
         version = 'Unknown'
+    except Exception:
+        logger.warning("Couldn't guess git revision")
+        version = "Unknown"
     return version
